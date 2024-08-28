@@ -1,4 +1,19 @@
-@import".././styles/fonts";
-@import".././styles/config";
-@import".././sections/main";
-@import".././sections/header";
+.header {
+  &__wrapper{
+    margin-top: 64px;
+    margin-bottom: 40px;
+  }
+  &__title {
+    color: #000;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+  }
+
+  &__text__info {
+    color: #000;
+    font-size: 21px;
+    line-height: 36px;
+  }
+
+}

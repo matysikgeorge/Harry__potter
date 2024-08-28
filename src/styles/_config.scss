@@ -1,0 +1,40 @@
+* {
+  // - обращение с помощью * ко всем классам
+  margin: 0; // - сброс внешних отступов
+  padding: 0; // - сброс внутренних отступов
+  box-sizing: border-box; // - расчет padding&border включены в w & h, без значения border-box при указании w & h + padding&border браузер посчитает размер элемента, как (w+p*2+b*2 & h+p*2+b*2)
+  font-family: Inter, sans-serif; // - задаем семейство шрифтов, Inter, без засечек
+}
+
+ul, // - ненумерованный список un-order list
+ol {
+  // - ненумерованный список order list
+  list-style: none; // - позволяет убрать маркеры списка в виде кружочков
+}
+
+h1, // - задаем стиль заголовкам и тексту, которые часто повторяются, для сокращения кода
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  color: #152536;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background: #f5f5f5;
+}

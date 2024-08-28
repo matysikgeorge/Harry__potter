@@ -1,0 +1,21 @@
+.card {
+  width: 334px;
+  // height: 192px;
+
+  &__wrapper {
+    width: 272px;
+    // height: 349px;
+    border-radius: 4px;
+    border:  1px solid black;
+    display: block;
+    overflow: hidden;
+  }
+
+  &__img {
+    overflow: hidden;
+  }
+
+  &__text-block {
+    padding: 24px;
+  }
+}

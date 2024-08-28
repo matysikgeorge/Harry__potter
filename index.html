@@ -3,14 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script href="./src/scripts/script.js" defer></script>
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <script src="./src/scripts/script.js" type="module" defer></script>
     <title>Harry Potter</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header></header>
+    <header>
+      <div class="container">
+        <div class="header__wrapper">
+          <h1 class="header__title">Harry Potter</h1>
+          <p class="header__text__info">
+            View all characters from the Harry Potter universe
+          </p>
+          <div class="form__wrapper">
+            <div class="form__search__name">
+              <form class="form__name" action="#" method="get">
+                <label class="form__label__name" for="sesrch__name">Name</label>
+                <input
+                  class="form__input__name"
+                  type="text"
+                  name="name"
+                  id="sesrch__name"
+                  placeholder="Type name"
+                />
+              </form>
+            </div>
+            <div class="form__school__wrapper">
+              <label class="form__label__school" for="faculty">School</label>
+              <select class="form__select__school" name="school" id="faculty">
+                <option class="form__select__school" value="6">
+                  Hufflepuff
+                </option>
+                <option class="form__select__school" value="12">
+                  Ravenclaw
+                </option>
+                <option class="form__select__school" value="24">
+                  Slytherin
+                </option>
+                <option class="form__select__school" value="48">
+                  Gryffindor
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- MAIN -->
-    <main></main>
+    <main>
+      <section class="cards">
+        <div class="container">
+          <div class="cards__wrapper">
+            <!-- CARDS -->
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
