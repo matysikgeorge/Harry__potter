@@ -14,12 +14,8 @@ ol {
 
 h1, // - задаем стиль заголовкам и тексту, которые часто повторяются, для сокращения кода
 h2,
-h3,
-h4,
-h5,
-h6,
 p,
-label {
+{
   color: #152536;
   font-family: Inter;
   font-style: normal;
@@ -29,10 +25,11 @@ label {
 }
 
 .container {
-  max-width: 768px;
+  max-width: 688px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+  box-sizing: content-box;
 }
 
 body {
